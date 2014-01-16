@@ -1,0 +1,135 @@
+<!-- Top navigation -->
+<!-- <div ng-controller="NavigationController.main">
+    <header class="bar-title">
+
+      <a class="icon pull-left" href="#" ng-tap="loadMenu()">
+        <img src="/images/icon-menu.png" />
+      </a>
+
+      <a class="icon pull-right" href="#">
+        <img src="/images/settings.png" />
+      </a>
+
+    </header>
+</div> -->
+
+<!-- Food / Home page -->
+<div ng-controller="FoodController.index">
+    <div class="content">
+        <div id="dietPopover" class="popover">
+            <header class="popover-header">
+                <h3 class="title">Diets</h3>
+            </header>
+            <ul class="list">
+                <li>Gluten Free</li>
+                <li>Dairy Free</li>
+                <li>Low Sodium</li>
+                <li>Vegan</li>
+            </ul>
+        </div>
+        <form class="search" ng-submit="search()">
+            <div class="search">
+                <input class="search-text" name="search"
+                       type="search"
+                       placeholder="Search recipes or food" autocomplete="off"
+                       ng-model="search_text">
+                <!-- <a class="button-main">Cancel</a> -->
+                <a class="icon pull-right settings" href="#dietPopover">
+                    <img src="/images/icon-settings.png" />
+                </a>
+            </div>
+
+            <div class="setting">
+
+                <!-- Recipe or Food selector -->
+                <div class="type" id="search_type">
+                    <ul class="segmented-controller">
+                        <li class="active">
+                            <a href="#recipe" ng-tap="setSearchType('recipe')" data-type="recipe">Recipe</a>
+                        </li>
+                        <li>
+                            <a href="#food" ng-tap="setSearchType('food')" data-type="food">Food</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Diet Selector -->
+                <div class="diet">
+
+                </div>
+
+            </div>
+        </form>
+
+        <!-- <ul class="list">
+          <li ng-repeat="alarm in alarms">
+            <a href="#details/{{alarm.id}}">
+              {{alarm.date}} - {{alarm.time}} - {{alarm.msg}}
+              <span class="chevron"></span>
+            </a>
+          </li>
+        </ul> -->
+
+        <!-- foods or recipe search results-->
+        <ul class="list search-results">
+            <li class="search-result" ng-repeat="food in foods">
+
+                <a href="#details/123">
+                    <img ng-src="{{food.image}}" />
+                    <label>{{food.name}}</label>
+
+                    <div class="progress">
+                        <div class="bar bar-success" style="width: 50%;"></div>
+                        <div class="bar bar-warning" style="width: 30%;"></div>
+                        <div class="bar bar-danger" style="width: 10%;"></div>
+                    </div>
+
+                    <span class="chevron"></span>
+                </a>
+
+                <div class="action">
+                    <a class="button" href="#">I Ate This</a>
+                </div>
+
+            </li>
+        </ul>
+
+        <!-- Tab bar (iOS-ish) -->
+        <!-- <nav class="bar-tab">
+          <ul class="tab-inner">
+            <li class="tab-item active">
+              <a href="#">
+                <img class="tab-icon" src="img/icon-search.png">
+                <div class="tab-label">Search</div>
+              </a>
+            </li>
+            <li class="tab-item">
+              <a href="#">
+                <img class="tab-icon" src="img/icon-profile.png">
+                <div class="tab-label">Label</div>
+              </a>
+            </li>
+            <li class="tab-item">
+              <a href="#">
+                <img class="tab-icon" src="img/icon-messages.png">
+                <div class="tab-label">Label</div>
+              </a>
+            </li>
+            <li class="tab-item">
+              <a href="#">
+                <img class="tab-icon" src="img/icon-hamburger.png">
+                <div class="tab-label">Label</div>
+              </a>
+            </li>
+            <li class="tab-item">
+              <a href="#">
+                <img class="tab-icon" src="img/icon-settings.png">
+                <div class="tab-label">Label</div>
+              </a>
+            </li>
+          </ul>
+        </nav> -->
+
+    </div>
+</div>
+

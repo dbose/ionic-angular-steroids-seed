@@ -1,0 +1,8 @@
+<div ng-controller="RestaurantController.pick">
+	<ul class="list">
+	  <li ng-click="choose(restaurant.id)" ng-repeat="restaurant in restaurants | filter:search | orderBy:'name'">
+	    {{restaurant.name}}
+	    <span class="chevron"></span>
+	  </li>
+	</ul>
+</div>

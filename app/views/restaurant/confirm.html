@@ -1,0 +1,11 @@
+<div ng-controller="RestaurantController.confirm" class="content-padded centered">
+	<p>You're about to book a</p>
+  <br><br>
+	<h2>Table for {{patronNumber}}</h2>
+	<p>at</p>
+	<h2>{{restaurant.name}}</h2>
+  <br><br>
+  <div class="wide">
+    <a class="button button-main button-block" ng-click="confirm(restaurant.id)">Make it so!</a>
+  </div>
+</div>
