@@ -1,6 +1,6 @@
 # Ionic + AngularJS + Steroids
 
-Based on a discussion on the Ionic forum thread ([http://forum.ionicframework.com/t/created-a-seed-for-ionic-angular-appgyver/628](http://forum.ionicframework.com/t/created-a-seed-for-ionic-angular-appgyver/628)), here is the unified seed project. This inherit the fantastic workflow of Steroids (minus any performance optimization, that can be included later as a cordova plugin) and robust AngularJS constructs from ionic.
+Based on a discussion on the Ionic forum thread ([http://forum.ionicframework.com/t/created-a-seed-for-ionic-angular-appgyver/628](http://forum.ionicframework.com/t/created-a-seed-for-ionic-angular-appgyver/628)), here is the unified seed project. This inherits the fantastic workflow from Steroids (minus any performance optimizations, that can be included later as a cordova plugin) and robust AngularJS constructs from ionic.
 
 ##	File/Directory Explanations
 
