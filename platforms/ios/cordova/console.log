@@ -1,0 +1,58 @@
+2014-07-01 20:20:14.790 HelloCordova[8119:a0b] Multi-tasking -> Device: YES, App: YES
+2014-07-01 20:20:14.847 HelloCordova[8119:a0b] Unlimited access to network resources
+2014-07-01 20:20:15.099 HelloCordova[8119:a0b] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2014-07-01 20:20:15.099 HelloCordova[8119:a0b] [CDVTimer][keyboard] 0.567973ms
+2014-07-01 20:20:15.100 HelloCordova[8119:a0b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-01 20:20:15.101 HelloCordova[8119:a0b] [CDVTimer][statusbar] 0.613034ms
+2014-07-01 20:20:15.101 HelloCordova[8119:a0b] [CDVTimer][TotalPluginStartup] 2.249002ms
+2014-07-01 20:20:15.511 HelloCordova[8119:a0b] Resetting plugins due to page load.
+2014-07-01 20:20:15.967 HelloCordova[8119:a0b] Finished load of: file:///Users/debasish.bose/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F19400BA-2682-4DCB-95BC-A5DB2111DCC7/HelloCordova.app/www/index.html#/tab/dash
+2014-07-01 20:20:16.245 HelloCordova[8119:a0b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-07-01 20:20:16.246 HelloCordova[8119:a0b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-07-01 20:20:16.251 HelloCordova[8119:a0b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device1476718503",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2014-07-01 20:20:33.270 HelloCordova[8119:a0b] Received memory warning.
+2014-07-01 20:20:40.574 HelloCordova[8324:a0b] Multi-tasking -> Device: YES, App: YES
+2014-07-01 20:20:40.587 HelloCordova[8324:a0b] Unlimited access to network resources
+2014-07-01 20:20:40.696 HelloCordova[8324:a0b] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2014-07-01 20:20:40.697 HelloCordova[8324:a0b] [CDVTimer][keyboard] 0.451982ms
+2014-07-01 20:20:40.697 HelloCordova[8324:a0b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-01 20:20:40.698 HelloCordova[8324:a0b] [CDVTimer][statusbar] 1.379013ms
+2014-07-01 20:20:40.699 HelloCordova[8324:a0b] [CDVTimer][TotalPluginStartup] 3.153026ms
+2014-07-01 20:20:41.061 HelloCordova[8324:a0b] Resetting plugins due to page load.
+2014-07-01 20:20:41.548 HelloCordova[8324:a0b] Finished load of: file:///Users/debasish.bose/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F19400BA-2682-4DCB-95BC-A5DB2111DCC7/HelloCordova.app/www/index.html#/tab/dash
+2014-07-01 20:20:41.711 HelloCordova[8324:a0b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-07-01 20:20:41.712 HelloCordova[8324:a0b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-07-01 20:20:41.712 HelloCordova[8324:a0b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device123998669",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
+2014-07-01 20:21:04.989 HelloCordova[8527:a0b] Multi-tasking -> Device: YES, App: YES
+2014-07-01 20:21:05.009 HelloCordova[8527:a0b] Unlimited access to network resources
+2014-07-01 20:21:05.047 HelloCordova[8527:a0b] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2014-07-01 20:21:05.049 HelloCordova[8527:a0b] [CDVTimer][keyboard] 1.981020ms
+2014-07-01 20:21:05.050 HelloCordova[8527:a0b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-01 20:21:05.053 HelloCordova[8527:a0b] [CDVTimer][statusbar] 2.439976ms
+2014-07-01 20:21:05.053 HelloCordova[8527:a0b] [CDVTimer][TotalPluginStartup] 6.426036ms
+2014-07-01 20:21:05.188 HelloCordova[8527:a0b] Resetting plugins due to page load.
+2014-07-01 20:21:05.669 HelloCordova[8527:a0b] Finished load of: file:///Users/debasish.bose/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F19400BA-2682-4DCB-95BC-A5DB2111DCC7/HelloCordova.app/www/index.html#/tab/dash
+2014-07-01 20:21:05.807 HelloCordova[8527:a0b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
+2014-07-01 20:21:05.808 HelloCordova[8527:a0b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2014-07-01 20:21:05.809 HelloCordova[8527:a0b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "Device1677183067",
+  "Device",
+  "getDeviceInfo",
+  [
+
+  ]
+]
